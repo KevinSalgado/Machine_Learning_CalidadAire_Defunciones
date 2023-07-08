@@ -1,0 +1,1088 @@
+2023-07-07 13:54:48,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-07 13:54:48,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-07 13:54:48,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-07 13:54:48,852:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-08 12:40:44,030:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-08 12:40:44,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-08 12:40:44,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-08 12:40:44,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-08 12:46:55,079:INFO:PyCaret ClusteringExperiment
+2023-07-08 12:46:55,080:INFO:Logging name: cluster-default-name
+2023-07-08 12:46:55,080:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-07-08 12:46:55,080:INFO:version 3.0.4
+2023-07-08 12:46:55,080:INFO:Initializing setup()
+2023-07-08 12:46:55,080:INFO:self.USI: 7fe0
+2023-07-08 12:46:55,080:INFO:self._variable_keys: {'X', 'seed', 'exp_name_log', 'html_param', 'gpu_n_jobs_param', 'memory', 'pipeline', '_ml_usecase', 'gpu_param', 'USI', 'log_plots_param', 'exp_id', 'logging_param', '_available_plots', 'n_jobs_param', 'data', 'idx'}
+2023-07-08 12:46:55,080:INFO:Checking environment
+2023-07-08 12:46:55,081:INFO:python_version: 3.10.11
+2023-07-08 12:46:55,081:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-08 12:46:55,081:INFO:machine: AMD64
+2023-07-08 12:46:55,082:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-08 12:46:55,094:INFO:Memory: svmem(total=8419024896, available=1451077632, percent=82.8, used=6967947264, free=1451077632)
+2023-07-08 12:46:55,094:INFO:Physical Core: 4
+2023-07-08 12:46:55,095:INFO:Logical Core: 8
+2023-07-08 12:46:55,095:INFO:Checking libraries
+2023-07-08 12:46:55,095:INFO:System:
+2023-07-08 12:46:55,095:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-08 12:46:55,095:INFO:executable: C:\Users\Kevin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+2023-07-08 12:46:55,095:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-08 12:46:55,095:INFO:PyCaret required dependencies:
+2023-07-08 12:46:55,102:INFO:                 pip: 23.0.1
+2023-07-08 12:46:55,102:INFO:          setuptools: 65.5.0
+2023-07-08 12:46:55,103:INFO:             pycaret: 3.0.4
+2023-07-08 12:46:55,103:INFO:             IPython: 8.14.0
+2023-07-08 12:46:55,103:INFO:          ipywidgets: 7.7.5
+2023-07-08 12:46:55,103:INFO:                tqdm: 4.65.0
+2023-07-08 12:46:55,103:INFO:               numpy: 1.23.5
+2023-07-08 12:46:55,103:INFO:              pandas: 1.5.3
+2023-07-08 12:46:55,103:INFO:              jinja2: 3.0.3
+2023-07-08 12:46:55,103:INFO:               scipy: 1.11.1
+2023-07-08 12:46:55,103:INFO:              joblib: 1.3.1
+2023-07-08 12:46:55,103:INFO:             sklearn: 1.2.2
+2023-07-08 12:46:55,103:INFO:                pyod: 1.1.0
+2023-07-08 12:46:55,103:INFO:            imblearn: 0.10.1
+2023-07-08 12:46:55,103:INFO:   category_encoders: 2.6.1
+2023-07-08 12:46:55,103:INFO:            lightgbm: 3.3.5
+2023-07-08 12:46:55,103:INFO:               numba: 0.57.1
+2023-07-08 12:46:55,103:INFO:            requests: 2.31.0
+2023-07-08 12:46:55,103:INFO:          matplotlib: 3.7.1
+2023-07-08 12:46:55,103:INFO:          scikitplot: 0.3.7
+2023-07-08 12:46:55,103:INFO:         yellowbrick: 1.5
+2023-07-08 12:46:55,103:INFO:              plotly: 5.15.0
+2023-07-08 12:46:55,104:INFO:    plotly-resampler: Not installed
+2023-07-08 12:46:55,104:INFO:             kaleido: 0.2.1
+2023-07-08 12:46:55,104:INFO:           schemdraw: 0.15
+2023-07-08 12:46:55,104:INFO:         statsmodels: 0.14.0
+2023-07-08 12:46:55,104:INFO:              sktime: 0.20.0
+2023-07-08 12:46:55,104:INFO:               tbats: 1.1.3
+2023-07-08 12:46:55,104:INFO:            pmdarima: 2.0.3
+2023-07-08 12:46:55,104:INFO:              psutil: 5.9.5
+2023-07-08 12:46:55,104:INFO:          markupsafe: 2.1.3
+2023-07-08 12:46:55,104:INFO:             pickle5: Not installed
+2023-07-08 12:46:55,104:INFO:         cloudpickle: 2.2.1
+2023-07-08 12:46:55,104:INFO:         deprecation: 2.1.0
+2023-07-08 12:46:55,104:INFO:              xxhash: 3.2.0
+2023-07-08 12:46:55,104:INFO:           wurlitzer: Not installed
+2023-07-08 12:46:55,104:INFO:PyCaret optional dependencies:
+2023-07-08 12:46:55,169:INFO:                shap: Not installed
+2023-07-08 12:46:55,169:INFO:           interpret: Not installed
+2023-07-08 12:46:55,169:INFO:                umap: Not installed
+2023-07-08 12:46:55,169:INFO:    pandas_profiling: Not installed
+2023-07-08 12:46:55,169:INFO:  explainerdashboard: Not installed
+2023-07-08 12:46:55,169:INFO:             autoviz: Not installed
+2023-07-08 12:46:55,169:INFO:           fairlearn: Not installed
+2023-07-08 12:46:55,169:INFO:          deepchecks: Not installed
+2023-07-08 12:46:55,169:INFO:             xgboost: Not installed
+2023-07-08 12:46:55,169:INFO:            catboost: Not installed
+2023-07-08 12:46:55,169:INFO:              kmodes: Not installed
+2023-07-08 12:46:55,169:INFO:             mlxtend: Not installed
+2023-07-08 12:46:55,170:INFO:       statsforecast: Not installed
+2023-07-08 12:46:55,170:INFO:        tune_sklearn: Not installed
+2023-07-08 12:46:55,170:INFO:                 ray: Not installed
+2023-07-08 12:46:55,170:INFO:            hyperopt: Not installed
+2023-07-08 12:46:55,170:INFO:              optuna: Not installed
+2023-07-08 12:46:55,170:INFO:               skopt: Not installed
+2023-07-08 12:46:55,170:INFO:              mlflow: Not installed
+2023-07-08 12:46:55,170:INFO:              gradio: Not installed
+2023-07-08 12:46:55,170:INFO:             fastapi: Not installed
+2023-07-08 12:46:55,170:INFO:             uvicorn: Not installed
+2023-07-08 12:46:55,170:INFO:              m2cgen: Not installed
+2023-07-08 12:46:55,170:INFO:           evidently: Not installed
+2023-07-08 12:46:55,170:INFO:               fugue: Not installed
+2023-07-08 12:46:55,170:INFO:           streamlit: Not installed
+2023-07-08 12:46:55,170:INFO:             prophet: Not installed
+2023-07-08 12:46:55,170:INFO:None
+2023-07-08 12:46:55,171:INFO:Set up data.
+2023-07-08 12:46:55,335:INFO:Set up index.
+2023-07-08 12:46:55,335:INFO:Assigning column types.
+2023-07-08 12:46:55,368:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-07-08 12:46:55,368:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-07-08 12:46:55,369:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,369:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-07-08 12:46:55,369:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,369:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-07-08 12:46:55,369:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,369:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,381:INFO:Preparing preprocessing pipeline...
+2023-07-08 12:46:55,381:INFO:Set up simple imputation.
+2023-07-08 12:46:55,468:INFO:Finished creating preprocessing pipeline.
+2023-07-08 12:46:55,475:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\Kevin\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['0', '1', '2', '3', '4', '5', '6',
+                                             '7', '8', '9', '10', '11', '12',
+                                             '13', '14', '15', '16', '17', '18',
+                                             '19', '20', '21', '22', '23', '24',
+                                             '25', '26', '27', '28', '29', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-07-08 12:46:55,475:INFO:Creating final display dataframe.
+2023-07-08 12:46:55,582:INFO:Setup _display_container:                Description                 Value
+0               Session id                  4177
+1      Original data shape           (5590, 351)
+2   Transformed data shape           (5590, 351)
+3         Numeric features                   351
+4               Preprocess                  True
+5          Imputation type                simple
+6       Numeric imputation                  mean
+7   Categorical imputation                  mode
+8                 CPU Jobs                    -1
+9                  Use GPU                 False
+10          Log Experiment                 False
+11         Experiment Name  cluster-default-name
+12                     USI                  7fe0
+2023-07-08 12:46:55,614:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,615:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-07-08 12:46:55,616:INFO:setup() successfully completed in 0.54s...............
+2023-07-08 13:09:06,039:INFO:Initializing create_model()
+2023-07-08 13:09:06,041:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-07-08 13:09:06,041:INFO:Checking exceptions
+2023-07-08 13:09:06,317:INFO:Importing untrained model
+2023-07-08 13:09:06,331:INFO:K-Means Clustering Imported successfully
+2023-07-08 13:09:06,341:INFO:Fitting Model
+2023-07-08 13:09:06,497:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-07-08 13:09:08,207:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.54s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  fitted_estimator = self._memory_fit(
+
+2023-07-08 13:09:09,758:INFO:KMeans(n_clusters=4, random_state=4177)
+2023-07-08 13:09:09,759:INFO:create_models() successfully completed......................................
+2023-07-08 13:09:09,771:INFO:Uploading results into container
+2023-07-08 13:09:09,798:INFO:Uploading model into container now
+2023-07-08 13:09:09,839:INFO:_master_model_container: 1
+2023-07-08 13:09:09,840:INFO:_display_container: 2
+2023-07-08 13:09:09,842:INFO:KMeans(n_clusters=4, random_state=4177)
+2023-07-08 13:09:09,842:INFO:create_model() successfully completed......................................
+2023-07-08 13:10:10,630:INFO:Initializing assign_model()
+2023-07-08 13:10:10,631:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, model=KMeans(n_clusters=4, random_state=4177), transformation=False, score=True, verbose=True)
+2023-07-08 13:10:10,631:INFO:Checking exceptions
+2023-07-08 13:10:10,631:INFO:Determining Trained Model
+2023-07-08 13:10:10,632:INFO:Trained Model : K-Means Clustering
+2023-07-08 13:10:10,632:INFO:Copying data
+2023-07-08 13:10:10,650:INFO:(5590, 352)
+2023-07-08 13:10:10,650:INFO:assign_model() successfully completed......................................
+2023-07-08 13:10:47,708:INFO:Initializing evaluate_model()
+2023-07-08 13:10:47,708:INFO:evaluate_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, estimator=KMeans(n_clusters=4, random_state=4177), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2023-07-08 13:10:47,737:INFO:Initializing plot_model()
+2023-07-08 13:10:47,738:INFO:plot_model(plot=pipeline, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:10:47,738:INFO:Checking exceptions
+2023-07-08 13:10:47,741:INFO:Preloading libraries
+2023-07-08 13:10:47,742:INFO:Copying training dataset
+2023-07-08 13:10:47,742:INFO:Plot type: pipeline
+2023-07-08 13:10:48,036:INFO:Visual Rendered Successfully
+2023-07-08 13:10:48,167:INFO:plot_model() successfully completed......................................
+2023-07-08 13:11:02,861:INFO:Initializing plot_model()
+2023-07-08 13:11:02,862:INFO:plot_model(plot=distribution, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:11:02,862:INFO:Checking exceptions
+2023-07-08 13:11:02,868:INFO:Preloading libraries
+2023-07-08 13:11:02,869:INFO:Copying training dataset
+2023-07-08 13:11:02,869:INFO:Plot type: distribution
+2023-07-08 13:11:02,869:INFO:SubProcess assign_model() called ==================================
+2023-07-08 13:11:02,870:INFO:Initializing assign_model()
+2023-07-08 13:11:02,870:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, model=KMeans(n_clusters=4, random_state=4177), transformation=False, score=True, verbose=False)
+2023-07-08 13:11:02,870:INFO:Checking exceptions
+2023-07-08 13:11:02,870:INFO:Determining Trained Model
+2023-07-08 13:11:02,870:INFO:Trained Model : K-Means Clustering
+2023-07-08 13:11:02,870:INFO:Copying data
+2023-07-08 13:11:02,878:INFO:(5590, 352)
+2023-07-08 13:11:02,878:INFO:assign_model() successfully completed......................................
+2023-07-08 13:11:02,879:INFO:SubProcess assign_model() end ==================================
+2023-07-08 13:11:02,879:INFO:Sorting dataframe
+2023-07-08 13:11:02,893:INFO:Rendering Visual
+2023-07-08 13:11:02,983:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,985:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,986:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,986:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,987:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,987:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,988:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,988:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,989:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,989:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,989:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,990:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,990:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,991:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,991:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,992:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,992:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,993:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,993:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,994:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,994:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,995:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,995:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,995:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,996:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,996:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,997:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,997:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,997:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,998:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,998:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,999:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:02,999:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,000:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,001:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,001:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,002:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,003:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,003:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,003:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,003:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,005:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,006:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,006:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,006:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,007:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,007:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,008:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,008:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,009:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,009:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,010:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,010:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,011:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,011:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,012:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,012:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,013:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,014:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,014:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,015:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,015:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,016:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,016:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,017:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,017:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,018:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,018:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,018:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,019:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,020:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,020:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,021:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,021:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,022:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,022:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,023:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,023:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,023:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,023:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,025:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,025:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,026:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,026:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,027:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,027:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,028:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,028:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,029:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,029:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,030:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,030:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,031:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,032:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,033:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,034:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,035:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,036:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,037:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,038:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,039:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,039:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,039:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,040:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,040:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,041:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,041:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,042:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,042:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,043:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,043:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,045:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,046:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,046:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,047:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,048:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,048:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,049:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,050:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,050:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,051:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,051:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,052:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,052:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,053:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,053:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,054:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,054:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,055:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,055:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,056:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,056:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,057:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,057:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,058:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,058:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,059:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,059:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,060:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,060:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,061:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,061:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,062:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,062:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,063:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,063:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,064:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,065:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,065:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,066:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,066:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,067:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,067:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,068:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,068:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,069:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,069:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,070:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,070:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,071:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,071:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,072:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,072:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,073:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,073:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,074:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,074:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,074:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,076:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,076:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,077:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,077:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,078:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,078:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,079:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,079:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,080:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,081:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,082:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,082:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,083:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,083:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,083:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,084:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,084:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,085:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,086:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,086:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,087:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,087:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,088:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,088:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,088:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,089:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,089:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,090:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,090:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,091:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,091:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,092:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,092:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,093:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,093:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,094:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,095:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,096:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,097:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,097:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,098:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,098:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,099:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,099:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,100:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,100:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,101:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,101:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,102:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,102:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,103:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,103:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,104:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,105:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,105:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,106:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,106:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,107:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,107:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,108:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,108:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,109:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,110:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,110:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,111:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,111:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,112:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,112:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,113:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,113:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,113:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,114:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,114:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,115:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,116:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,116:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,116:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,117:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,117:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,118:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,118:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,119:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,119:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:03,120:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\plotly\express\_core.py:1223: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df_output[col_name] = to_unindexed_series(df_input[argument])
+
+2023-07-08 13:11:06,390:INFO:Visual Rendered Successfully
+2023-07-08 13:11:06,545:INFO:plot_model() successfully completed......................................
+2023-07-08 13:11:32,162:INFO:Initializing plot_model()
+2023-07-08 13:11:32,163:INFO:plot_model(plot=cluster, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:11:32,164:INFO:Checking exceptions
+2023-07-08 13:11:32,172:INFO:Preloading libraries
+2023-07-08 13:11:32,172:INFO:Copying training dataset
+2023-07-08 13:11:32,173:INFO:Plot type: cluster
+2023-07-08 13:11:32,173:INFO:SubProcess assign_model() called ==================================
+2023-07-08 13:11:32,174:INFO:Initializing assign_model()
+2023-07-08 13:11:32,174:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, model=KMeans(n_clusters=4, random_state=4177), transformation=True, score=True, verbose=False)
+2023-07-08 13:11:32,174:INFO:Checking exceptions
+2023-07-08 13:11:32,174:INFO:Determining Trained Model
+2023-07-08 13:11:32,174:INFO:Trained Model : K-Means Clustering
+2023-07-08 13:11:32,174:INFO:Copying data
+2023-07-08 13:11:32,231:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-07-08 13:11:32,234:INFO:(5590, 352)
+2023-07-08 13:11:32,234:INFO:assign_model() successfully completed......................................
+2023-07-08 13:11:32,237:INFO:SubProcess assign_model() end ==================================
+2023-07-08 13:11:32,244:INFO:Fitting PCA()
+2023-07-08 13:11:32,310:INFO:Sorting dataframe
+2023-07-08 13:11:32,314:INFO:Rendering Visual
+2023-07-08 13:11:32,410:INFO:Visual Rendered Successfully
+2023-07-08 13:11:32,531:INFO:plot_model() successfully completed......................................
+2023-07-08 13:13:37,131:INFO:Initializing plot_model()
+2023-07-08 13:13:37,131:INFO:plot_model(plot=elbow, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:13:37,132:INFO:Checking exceptions
+2023-07-08 13:13:37,140:INFO:Preloading libraries
+2023-07-08 13:13:37,141:INFO:Copying training dataset
+2023-07-08 13:13:37,141:INFO:Plot type: elbow
+2023-07-08 13:13:37,242:INFO:Fitting Model
+2023-07-08 13:13:37,255:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:37,454:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:37,925:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:39,061:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:39,623:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:40,334:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:41,564:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:42,238:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:42,898:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-07-08 13:13:43,901:INFO:Visual Rendered Successfully
+2023-07-08 13:13:44,105:INFO:plot_model() successfully completed......................................
+2023-07-08 13:15:00,861:INFO:Initializing plot_model()
+2023-07-08 13:15:00,862:INFO:plot_model(plot=pipeline, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:15:00,862:INFO:Checking exceptions
+2023-07-08 13:15:00,874:INFO:Preloading libraries
+2023-07-08 13:15:00,875:INFO:Copying training dataset
+2023-07-08 13:15:00,876:INFO:Plot type: pipeline
+2023-07-08 13:15:00,990:INFO:Visual Rendered Successfully
+2023-07-08 13:15:01,288:INFO:plot_model() successfully completed......................................
+2023-07-08 13:15:02,991:INFO:Initializing plot_model()
+2023-07-08 13:15:02,992:INFO:plot_model(plot=distance, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:15:02,992:INFO:Checking exceptions
+2023-07-08 13:15:02,999:INFO:Preloading libraries
+2023-07-08 13:15:02,999:INFO:Copying training dataset
+2023-07-08 13:15:02,999:INFO:Plot type: distance
+2023-07-08 13:15:03,067:INFO:Fitting Model
+2023-07-08 13:15:03,067:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\base.py:439: UserWarning:
+
+X does not have valid feature names, but KMeans was fitted with feature names
+
+
+2023-07-08 13:15:03,068:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\manifold\_mds.py:299: FutureWarning:
+
+The default value of `normalized_stress` will change to `'auto'` in version 1.4. To suppress this warning, manually set the value of `normalized_stress`.
+
+
+2023-07-08 13:15:03,252:INFO:Visual Rendered Successfully
+2023-07-08 13:15:03,350:INFO:plot_model() successfully completed......................................
+2023-07-08 13:15:28,195:INFO:Initializing plot_model()
+2023-07-08 13:15:28,195:INFO:plot_model(plot=silhouette, fold=None, verbose=False, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=4177), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000024004AAA860>, system=True)
+2023-07-08 13:15:28,195:INFO:Checking exceptions
+2023-07-08 13:15:28,203:INFO:Preloading libraries
+2023-07-08 13:15:28,204:INFO:Copying training dataset
+2023-07-08 13:15:28,204:INFO:Plot type: silhouette
+2023-07-08 13:15:28,264:INFO:Fitting Model
+2023-07-08 13:15:28,264:WARNING:C:\Users\Kevin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\base.py:439: UserWarning:
+
+X does not have valid feature names, but KMeans was fitted with feature names
+
+
+2023-07-08 13:15:30,647:INFO:Visual Rendered Successfully
+2023-07-08 13:15:30,867:INFO:plot_model() successfully completed......................................
