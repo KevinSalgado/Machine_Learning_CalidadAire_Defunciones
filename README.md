@@ -8,6 +8,10 @@ El proceso de clusterización se realizó para agrupar conjuntos de datos simila
 
 Se espera que este enfoque de clusterización y análisis de datos sea valioso para mejorar la comprensión de la relación entre infarto de miocardio, calidad del aire y datos sociodemográficos, y que pueda contribuir significativamente al avance en la investigación y en la toma de decisiones en salud pública.
 
+Dichos datos son extraídos de defunciones del siguiente URL:  http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_defunciones_gobmx.html
+
+Los datos de calidad de aire son extraídos del siguiente URL:  http://www.aire.cdmx.gob.mx/default.php?opc=%27aKBhnmI=%27&opcion=Zg==
+
 ## **Pasos**
 1. Clonar el proyecto en tu máquina local. Para ello, a través de su terminal, navegue a la ruta donde quiera descargar el repo y ejecute el siguiente comando:
 
