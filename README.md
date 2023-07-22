@@ -1,5 +1,5 @@
-## ** Proyecto Machine Learning y de Ciencia de Datos **
-### ** Estancia de investigación en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas del Instituto Politécnico Nacional **
+## **Proyecto Machine Learning y de Ciencia de Datos**
+### **Estancia de investigación en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas del Instituto Politécnico Nacional**
 ## Descubrir si existe una relación entre las defunciones por infarto de miocardio, la calidad de aire y su condición sociodemográfica.
 
 Para abordar este análisis de manera más efectiva, se llevó a cabo un procedimiento de clusterización que involucra datos relacionados con infarto de miocardio, calidad del aire y, en el futuro, se tiene la intención de incorporar datos sociodemográficos. El objetivo de esta clusterización fue identificar patrones en los datos con el fin de descubrir posibles relaciones entre las variables mencionadas previamente.
@@ -8,7 +8,7 @@ El proceso de clusterización se realizó para agrupar conjuntos de datos simila
 
 Se espera que este enfoque de clusterización y análisis de datos sea valioso para mejorar la comprensión de la relación entre infarto de miocardio, calidad del aire y datos sociodemográficos, y que pueda contribuir significativamente al avance en la investigación y en la toma de decisiones en salud pública.
 
-## ** Pasos **
+## **Pasos**
 1. Clonar el proyecto en tu máquina local. Para ello, a través de su terminal, navegue a la ruta donde quiera descargar el repo y ejecute el siguiente comando:
 
 ```
